@@ -1,42 +1,49 @@
 # IA_ChatBot
 
-Chatbot com Seq2Seq e Atenção em PyTorch
 
-Implementação de um chatbot conversacional para o exercício bônus da disciplina de Inteligência Artificial. O modelo utiliza uma arquitetura Encoder-Decoder com Atenção em PyTorch para gerar respostas a partir de um texto de entrada.
+🤖 Chatbot com Seq2Seq e Atenção em PyTorch
 
-Tecnologias Utilizadas
+Implementação de um chatbot conversacional como exercício bônus da disciplina de Inteligência Artificial.
+Este projeto utiliza uma arquitetura Encoder-Decoder com Mecanismo de Atenção desenvolvida em PyTorch, capaz de gerar respostas a partir de entradas textuais.
+🧰 Tecnologias Utilizadas
 
-    Python 3.10+
+    🐍 Python 3.10+
 
-    PyTorch
+    🔥 PyTorch
 
-    Jupyter Notebook
+    📓 Jupyter Notebook
 
-    Dataset: DailyDialog 
+    🗂️ Dataset: DailyDialog
 
-Como Executar
+🚀 Como Executar
 
-    Clone o repositório:
-    Bash
+    Clone o repositório
 
-git clone [URL_DO_SEU_REPOSITORIO]
-cd [NOME_DA_PASTA]
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+cd SEU_REPOSITORIO
 
-Crie o ambiente virtual e instale as dependências:
-Bash
+    Crie um ambiente virtual e instale as dependências
 
 python -m venv venv
-source venv/bin/activate  # No macOS/Linux
-# .\venv\Scripts\activate  # No Windows
+source venv/bin/activate     # macOS/Linux
+# .\venv\Scripts\activate    # Windows
+
 pip install -r requirements.txt
 
-(O arquivo requirements.txt deve conter torch, datasets, scikit-learn, etc.)
+    O arquivo requirements.txt deve incluir:
+    torch, datasets, scikit-learn, entre outras dependências necessárias.
 
-Inicie o chat:
-Para conversar com o modelo pré-treinado, execute o script de inferência ou a célula correspondente no notebook. Certifique-se que os arquivos 
+    Execute o chatbot
 
-    best_chatbot_model.pth e vocabulary.pkl estão na pasta.
+        Use o script de inferência ou as células do notebook para iniciar uma conversa.
 
-Estado do Projeto
+        Certifique-se de que os arquivos best_chatbot_model.pth e vocabulary.pkl estejam na pasta raiz do projeto.
 
-Prova de Conceito. O modelo atual sofre de overfitting significativo devido a limitações computacionais durante o treinamento. Como resultado, a qualidade das respostas é baixa e o projeto serve principalmente como uma demonstração funcional da arquitetura e dos desafios práticos do treinamento de modelos de linguagem.
+📌 Estado do Projeto
+
+🧪 Prova de Conceito
+Este modelo ainda sofre com overfitting devido a limitações de tempo e recursos computacionais no treinamento.
+⚠️ As respostas podem não ser coerentes ou realistas, e o projeto tem como objetivo principal demonstrar a funcionalidade da arquitetura Seq2Seq com Atenção, além dos desafios práticos de treinar modelos de linguagem.
+📬 Contato
+
+Caso tenha interesse em colaborar, sugestões ou dúvidas, fique à vontade para abrir uma issue ou pull request.
