@@ -25,12 +25,11 @@ cd SEU_REPOSITORIO
     Crie um ambiente virtual e instale as dependências
 
 python -m venv venv
-source venv/bin/activate     # macOS/Linux
-# .\venv\Scripts\activate    # Windows
+.\venv\Scripts\activate    # Windows
 
 pip install -r requirements.txt
 
-    O arquivo requirements.txt deve incluir:
+    O arquivo requirements.txt:
     torch, datasets, scikit-learn, entre outras dependências necessárias.
 
     Execute o chatbot
